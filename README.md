@@ -1,1 +1,180 @@
-# amazon_clone
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="amazon-style.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="navbar ">
+            <div class="nav-logo border">
+                <div class="logo"></div>
+            </div>
+
+            <div class="nav-add border">
+                <p class="add-text"> deliver to varanasi</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p id="p1"> update location</p>
+                </div>
+            </div>  
+
+            <div class="nav-search">
+                <select name="all" id="all">
+                    <option value="all">All</option>
+                    <option value="books">Books</option>
+                    <option value="electronics">Electronics</option>
+                    <option value="fashion">Fashion</option>
+                    <option value="home">Home & Kitchen</option>
+                    <option value="beauty">Beauty & Personal Care</option>
+                    <option value="sports">Sports & Outdoors</option>
+                </select>
+                <input type="text" placeholder="Search Amazon.in">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <div class="country border">
+                <div class="count-icon"></div>
+                <div class="count-select">
+                   <option>EN</option>
+                </div>
+            </div>
+
+            <div class="nav-sign border">
+                <a class="sign" > Hello, Sign in</a>
+                <a class="account"> Account & Lists</a>
+            </div>
+
+            <div class="nav-return border">
+                <a class="return"> Returns</a>
+                <a class="order"> & Orders</a>
+            </div>
+
+            <div class="nav-cart border">
+                <div class="cart-icon">
+                    <i class="fa-solid fa-cart-arrow-down"></i>
+                </div>
+                <a class="cart"> Cart</a>
+            </div>
+
+        </div>
+
+    </header>
+
+    <header>
+        <div class="navbar2">
+            <div class="nav2-menu">
+                <div class="homeicon">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <p class="all">All</p>
+                <p class="fresh"> Fresh</p>
+                <p class="mx">MX Player</p>
+                <p class="sell"> Sell </p>
+                <p class="bestsellers">Bestsellers</p>
+                <p class="mob">Mobiles</p>
+                <p class="today">Today's Deals</p>
+                <p class="customer"> Customer Service</p>
+                <p class="new"> New Releases</p>
+                <p class="prime"> Prime</p>
+                <p class="fashion"> Fashion</p>
+                <p class="electronics"> Electronics</p>
+                <p class="pay"> Amazon Pay</p>
+                <p class="home"> Home & Kitchen</p>
+                <p class="computers"> Computers</p>
+                <p class="toys"> Toys & Games</p>
+                <p class="books"> Books</p>
+            </div>
+        </div>
+    </header>
+
+    <panel>
+        <div class="panel">
+            <div class="box1">
+                <h2 class="box1-text"> Best Sellers in Home & Kitchen</h2>
+                <div class="image1"></div>
+                <div class="image2"></div>
+                <div class="image3"></div>
+                <div class="image4"></div>
+            </div>
+            <div class="box2">
+                <h2 class="box2-text"> Best Sellers in Clothing</h2>
+                <div class="image5"></div>
+                <div class="image6"></div>
+                <div class="image7"></div>
+                <div class="image8"></div>
+            </div>
+            <div class="box3">
+                <h2 class="box3-text"> Best Sellers in Beauty & Personal Care</h2>
+                <div class="image9"> </div>
+                <div class="image10"> </div>
+                <div class="image11"> </div>
+                <div class="image12"> </div>
+            </div>
+            <div class="box4">
+                <h2 class="box4-text"> Best Sellers in Clothing & Accessories</h2>
+                <div class="image13"> </div>
+                <div class="image14"> </div>
+                <div class="image15"> </div>
+                <div class="image16"> </div>
+            </div>
+        </div>
+    </panel>
+
+    <footer>
+        <div class="footer">
+            <div class="nav-footer1">
+                <h2 class="footer-text">Back to top</h2>
+            </div>
+
+            <div class="nav-footer2">
+                <div class="footer-col1">
+                    <h3>Get to Know Us</h3>
+                    <p>About Amazon</p>
+                    <p>Careers</p>
+                    <p>Press Releases</p>
+                    <p>Amazon Science</p>
+                </div>
+                <div class="footer-col2">
+                    <h3>Connect with Us</h3>
+                    <p>Facebook</p>
+                    <p>Twitter</p>
+                    <p>Instagram</p>
+                </div>
+                <div class="footer-col3">
+                    <h3>Make Money with Us</h3>
+                    <p>Sell on Amazon</p>
+                    <p>Sell under Amazon Accelerator</p>
+                    <p>protect and Build Your Brand</p>
+                    <p>Amazon Global Selling</p>
+                    <p>Supply to Amazon</p>
+                    <p>Become an Affiliate</p>
+                    <p>Fulfilment by Amazon</p>
+                    <p>Advertise Your Products</p>
+                    <p>Amazon Pay on Merchants</p>
+                </div>
+                <div class="footer-col4">
+                    <h3>Let Us Help You</h3>
+                    <p>Amazon and COVID-19</p>
+                    <p>Your Account</p>
+                    <p>Returns Centre</p>
+                    <p>100% Purchase Protection</p>
+                    <p>Amazon App Download</p>
+                    <p>Amazon Assistant Download</p>
+                    <p>Help</p>
+                </div>
+            </div>
+            <hr class="hr">
+            <div class="nav-footer3">
+                <h1> Thank You For Visit My Project !!</h1>
+            </div>
+        </div>
+            
+    </footer>
+</body>
+</html>
